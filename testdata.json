@@ -1,0 +1,15 @@
+[
+    {
+    "username": "practice",
+    "password": "SuperSecretPassword!"
+    },
+    {
+    "username": "testuser",
+    "password": "AnotherSecretPassword!"
+    },
+    {
+    "username": "admin",
+    "password": "AdminSecretPassword!"
+    }
+
+]
