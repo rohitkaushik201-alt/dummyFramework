@@ -1,13 +1,16 @@
 [
     {
+    "type":"valid",
     "username": "practice",
     "password": "SuperSecretPassword!"
     },
     {
+    "type":"unvalid",
     "username": "testuser",
     "password": "AnotherSecretPassword!"
     },
     {
+    "type":"unvalid",
     "username": "admin",
     "password": "AdminSecretPassword!"
     }

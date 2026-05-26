@@ -7,9 +7,9 @@ class loginPage {
         this.locators = new loginpagelocators(page)
     }
     async login(username, password) {
-        await this.page.locator(this.locators.username).fill(username)
-        await this.page.locator(this.locators.password).fill(password)
-        await this.page.locator(this.locators.loginButton).click()
+        await this.locators.username.fill(username)
+        await this.locators.password.fill(password)
+        await this.locators.loginButton.click()
     }
 }
 export default loginPage
